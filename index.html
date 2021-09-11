@@ -11,9 +11,15 @@
 <body>
     <nav class="navigation">
         <ul class="navigation__list">
-            <li class="navigation__item" aria-label="Navigate to the home section of my page.">Home</li>
-            <li class="navigation__item" aria-label="Navigate to 'My Projects' section.">Projects</li>
-            <li class="navigation__item" aria-label="Navigate to the contact section.">Contact</li>
+            <li class="navigation__item" aria-label="Navigate to the home section of my page.">
+                <a class="navigation__link" href="#home">Home</a>
+            </li>
+            <li class="navigation__item" aria-label="Navigate to 'My Projects' section.">
+                <a class="navigation__link" href="#project">Projects</a>
+            </li>
+            <li class="navigation__item" aria-label="Navigate to the contact section.">
+                <a class="navigation__link" href="#contact">Contact</a>
+            </li>
         </ul>
     </nav>
     <div class="container">
@@ -28,14 +34,14 @@
                 </p>
             </div>
             <figure class="header__figure">
-                <img src="./profile.jpeg" alt="Here is an image of me." class="header__image">
+                <img src="./images/profile.jpeg" alt="Here is an image of me." class="header__image">
                 <figcaption>Taken at 24/03/21</figcaption>
             </figure>
         </header>
         <section id="projects" class="project">
             <div class="project__container" id="container1">
-                <figure class="__project__figure">
-                    <img src="#" alt="Project card image" aria-hidden="true" class="project__image">
+                <figure class="project__figure">
+                    <img src="./images/newspaper.jpg" alt="Project card image" aria-hidden="true" class="project__image">
                 </figure>
                 <h2 class="project__title">Nnews1987</h2>
                 <p class="project__date">April,2021</p>
@@ -49,7 +55,8 @@
                     async/await functions in Javascript. I also used for the first time APIs: News API and New York Times
                     API.
                 </p>
-                <a href="#container1" aria-label="Link to toggle between project's card front side and project's details">More</a>
+                <a class="project__toggle" href="#container1" aria-label="Link to toggle between project's card front side and project's details"></a>
+                <a href="#" class="project__external">View in Github</a>
             </div>
         </section>
         <section id="contact" class="contact">

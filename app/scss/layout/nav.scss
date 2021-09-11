@@ -20,4 +20,20 @@
         color: var(--colorhunt-dark-1);
         font-size: 1.1rem;
     }
+
+    &__link {
+        color: var(--colorhunt-dark-1);
+        padding: 0.4em;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        background-color: transparent;
+        transition: all .4s ease;
+
+        &:hover{
+            border: 1px solid transparent;
+            background-color: var(--colorhunt-dark-1);
+            color: #2A0944;
+        }
+    }
+
 }
