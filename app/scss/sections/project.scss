@@ -1,0 +1,7 @@
+.project {
+    height: 100vh;
+    background-color: var(--colorhunt-dark-3);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+}

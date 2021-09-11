@@ -1,27 +1,23 @@
 // Abstract files
 
-@import "abstracts/all";
-
+@use "abstracts";
 // Vendor Files
 
-@import "vendor/all";
 
 // Core files
 
-@import "core/all";
+@use "core";
 
 // Components
 
-@import "components/all";
 
 // Layout
 
-@import "layout/all";
+@use "layout";
 
 // Sections
 
-@import "sections/all";
+@use "sections";
 
 // Pages
 
-@import "pages/all";

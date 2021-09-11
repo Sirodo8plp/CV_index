@@ -9,12 +9,42 @@
     <title>Welcome to my profile</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Contact</li>
-            <li>Projects</li>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item" aria-label="Navigate to the home section of my page.">Home</li>
+            <li class="navigation__item" aria-label="Navigate to 'My Projects' section.">Projects</li>
+            <li class="navigation__item" aria-label="Navigate to the contact section.">Contact</li>
         </ul>
     </nav>
+    <div class="container">
+        <header class="header" id="home">
+            <div class="header__introduction">
+                <h1 class="header__title">Welcome to my page!</h1>
+                <p class="header__information">
+                    Hello there 👋. My name is Thodoris Giannopoulos and I am a Frontend Developer. I have
+                    been studying in the department of Informatics at the University of Piraeus for 3 years while 
+                    attending the fourth and final year of my studies. I am currently searching for an internship so that 
+                    I can further increase my skills as well as increase my knowledge, ultimately becoming a better developer.👨‍💻
+                </p>
+            </div>
+            <figure class="header__figure">
+                <img src="./profile.jpeg" alt="Here is an image of me." class="header__image">
+                <figcaption>Taken at 24/03/21</figcaption>
+            </figure>
+        </header>
+        <section id="projects" class="project">
+            <div class="project__container">
+                <figure class="__project__figure">
+
+                </figure>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+    
+        </section>
+    </div>
+    <footer>
+        Designed And Created by Thodoris Giannopoulos
+    </footer>
 </body>
 </html>

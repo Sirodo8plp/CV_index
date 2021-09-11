@@ -5,8 +5,10 @@
 // mixins
 
 @forward "mixins/breakpoints";
+@forward "mixins/flex-container";
 
 //etc
 
 @forward "variables";
 @forward "boilerplate";
+@forward "fonts";

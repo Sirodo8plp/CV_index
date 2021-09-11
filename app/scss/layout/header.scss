@@ -1,0 +1,53 @@
+@use "../abstracts" as *;
+
+.header {
+    padding-top: 5em;
+    height: 100vh;
+    background-color: var(--colorhunt-dark-4);
+    @include flex(row,flex-start,space-evenly);
+    scroll-snap-align: start;
+
+    &__introduction {
+        position: relative;
+        flex-shrink: 1;
+        flex-basis: 35%;
+        flex-grow: 0;
+        top: 15rem;
+    }
+
+    &__title {
+        font-weight: var(--weight-bold-700);
+        color: var(--colorhunt-dark-1);
+        font-size: 3.5rem;
+    }
+
+    &__information {
+        font-size: 1.5rem !important;
+        color: var(--colorhunt-dark-1);
+        font-weight: var(--weight-light-300) !important;
+        line-height: 1.2;
+        font-family: 'Segoe UI' , sans-serif;
+        position: relative;
+        left: 2rem;
+    }
+
+    &__figure {
+        position: relative;
+        top: 2.5rem;
+        width: 30rem;
+        height: 30rem;
+        border-radius: 30rem;
+        overflow: hidden;
+        z-index: 1;
+        border: none;
+        outline: none;
+
+    }
+
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

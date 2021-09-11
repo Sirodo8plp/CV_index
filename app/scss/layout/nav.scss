@@ -1,0 +1,23 @@
+@use "../abstracts" as *;
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 5rem;
+    background: transparent;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    width: 100%;
+    z-index: 2;
+
+    &__list{
+        @include flex(row,center,space-evenly);
+    }
+
+    &__item {
+        color: var(--colorhunt-dark-1);
+        font-size: 1.1rem;
+    }
+}
